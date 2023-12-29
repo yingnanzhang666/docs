@@ -7,7 +7,7 @@ openat(AT_FDCWD, "/sys/block/vdb/stat", O_RDONLY) = 4
 ...
 ```
 Document in kernel
-https://github.corp.ebay.com/tess-contrib/jammy/blob/Ubuntu-5.15.0-26.26-ebay/Documentation/admin-guide/iostats.rst
+https://www.kernel.org/doc/Documentation/admin-guide/iostats.rst
 ```
 the same information is found in two places: one is in the file /proc/diskstats, and the other is within the sysfs file system, which must be mounted in order to obtain the information. Throughout this document we'll assume that sysfs is mounted on /sys, although of course it may be mounted anywhere. Both /proc/diskstats and sysfs use the same source for the information and so should not differ.
 ```
